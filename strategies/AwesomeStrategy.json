@@ -1,0 +1,32 @@
+{
+  "strategy_name": "AwesomeStrategy",
+  "params": {
+    "roi": {
+      "0": 0.441,
+      "448": 0.182,
+      "1011": 0.066,
+      "2385": 0
+    },
+    "stoploss": {
+      "stoploss": -0.169
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.293,
+      "trailing_stop_positive_offset": 0.388,
+      "trailing_only_offset_is_reached": true
+    },
+    "buy": {
+      "buy_ema_long": 33,
+      "buy_ema_short": 3,
+      "buy_sma_long": 99,
+      "buy_sma_short": 4
+    },
+    "sell": {
+      "sell_ema_short": 28
+    },
+    "protection": {}
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2021-11-22 14:15:03.127133+00:00"
+}

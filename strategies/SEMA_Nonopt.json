@@ -1,0 +1,30 @@
+{
+  "strategy_name": "SEMA_NonOpt",
+  "params": {
+    "buy": {
+      "buy_ema_long": 200,
+      "buy_ema_short": 20,
+      "buy_sma_long": 200,
+      "buy_sma_short": 100
+    },
+    "sell": {},
+    "protection": {},
+    "roi": {
+      "0": 0.55,
+      "335": 0.212,
+      "772": 0.086,
+      "2108": 0
+    },
+    "stoploss": {
+      "stoploss": -0.274
+    },
+    "trailing": {
+      "trailing_stop": true,
+      "trailing_stop_positive": 0.015,
+      "trailing_stop_positive_offset": 0.107,
+      "trailing_only_offset_is_reached": true
+    }
+  },
+  "ft_stratparam_v": 1,
+  "export_time": "2021-11-22 18:31:23.197364+00:00"
+}
